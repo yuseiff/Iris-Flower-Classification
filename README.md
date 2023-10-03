@@ -1,0 +1,10 @@
+# Iris-Flower-Classification
+
+This project focuses on classifying Iris flowers into three species using a logistic regression model. The dataset used for training and evaluation is loaded from a CSV file named 'IRIS.csv' using the pandas library. After loading the dataset, initial data exploration is performed. The information of the dataset is checked using the info() method, and the presence of missing data is verified.
+Data visualization is then conducted to gain insights into the dataset. New features are created by multiplying the petal length and petal width, as well as the sepal length and sepal width. The species column is retained for the target variable. Histograms are plotted to visualize the distributions of the newly created features, and a count plot is used to display the frequency of each species in the dataset.
+Data preprocessing steps are applied to prepare the dataset for modeling. The species names are replaced with numeric labels for ease of classification. The features and target variables are separated into x_train, x_test, y_train, and y_test using the train_test_split function from scikit-learn. The dataset is split into 70% for training and 30% for testing.
+The logistic regression model is trained using the fit() method from the LogisticRegression class in scikit-learn. The trained model is then evaluated on the training data. The accuracy score and mean squared error (MSE) are calculated to assess the model's performance. Additionally, a confusion matrix is generated to visualize the classification results.
+Finally, the trained model is evaluated on the testing data using the same evaluation metrics. The accuracy score, MSE, and confusion matrix are displayed to evaluate the model's performance on unseen data.
+In summary, this project demonstrates the process of classifying Iris flowers into different species using a logistic regression model. It includes data loading, exploration, visualization, preprocessing, model training, and evaluation steps.
+
+Follow me on linkedin: https://www.linkedin.com/in/youssef-husseiny-989a17257/
